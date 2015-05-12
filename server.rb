@@ -1,5 +1,5 @@
 require 'sinatra'
 
-post '/' do 
-  "Waka Waka!"
+get '/' do 
+  redirect to('/index.html')
 end

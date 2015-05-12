@@ -1,0 +1,85 @@
+.jumbotron {
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  color: inherit;
+  background-color: #eee;
+}
+
+.social {
+  float: right;
+  width: 250px;
+}
+
+.followme {
+  margin-right: 20px;
+  float: left;
+  padding-top: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#icons {
+  float: left;
+}
+
+.description {
+  clear: both;
+}
+
+.project {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.space {
+  width: 20px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#allprojects {
+  text-align: center;
+}
+
+.pic {
+  width: 270px;              
+  height: 150px;        
+  border-radius: 6px;
+  margin-left: 2rem;
+  margin-bottom:1rem;     
+  border: 1px solid black;
+} 
+
+.pic:hover, .pic:active {
+  /*margin-left: 2rem;*/
+  box-shadow: 0 0 1rem #666666;
+  -moz-box-shadow: 0 0 1rem #666666; 
+  -webkit-box-shadow: 0 0 1rem #666666; 
+}
+  
+.project_description {
+  text-align: justify;
+  width: 270px;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project_title {
+  text-align: justify;
+  width: 270px;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  margin-left: 2rem;
+  margin-bottom: .25rem;
+}
+
+#email_icon {
+  margin-right: 5px;
+}
+
+.nounderline {
+  text-decoration: none !important;
+}
